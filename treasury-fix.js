@@ -7,5 +7,5 @@
 // ==/UserScript==
 
 // TreasuryDirect doesn't allow typing or autofill from a password manager due to the readonly tag
-// This script fixes this by removing the readonly tag from the text box and allowing typing and autofill from a password manager.
+// This script fixes this by removing the readonly tag from the text box and allowing typing and autofill from a password manager
 for (let e of document.getElementsByClassName("pwordinput")) { e.removeAttribute('readonly'); }
